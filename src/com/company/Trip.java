@@ -7,6 +7,7 @@ public class Trip {
     protected int duration;
     protected String hotel;
     protected int price;
+    private String test;
 
     //Constructors
     public Trip(String destination, int duration, String hotel, int price){
