@@ -1,5 +1,7 @@
 package com.company;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -26,8 +28,8 @@ public class Main {
     }
 
     public static void addTripMenu(ArrayList<Trip> trips, Scanner console){
-        int answer = 0;
         System.out.println("Add:\n(1)beach trip\n(2)ski trip");
+        int answer = 0;
         while((answer != 1) && (answer != 2)) {
             answer = console.nextInt();
             console.nextLine();
